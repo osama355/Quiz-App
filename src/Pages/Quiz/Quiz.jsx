@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
-function Quiz() {
+function Quiz({questions,setquestions,score,setscore}) {
+    useEffect(()=>{
+        console.log(questions)
+    },[questions])
     return (
         <div>
             Quiz Page
