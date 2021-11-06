@@ -12,13 +12,13 @@ function App() {
   const [name, setname] = useState("")
   const [questions, setquestions] = useState("")
   const [score, setscore] = useState(0)
+
   const fetchQuestion=async(category="", difficulty="")=>{
     // const {data}= await axios.get(`https://opentdb.com/api.php?amount=10${category && `&category=${category}`}${difficulty && `&difficulty=${difficulty}`}&type=multiple`);
-    // const {data}=await axios.get(`https://opentdb.com/api.php?amount=10`)
-    const {data} =await axios.get(`https://opentdb.com/api.php?amount=10${category && `&category=${category}`}${difficulty && `&difficulty=${difficulty}`}&type=multiple`)
-    console.log(data);
+    const {data}=await axios.get(`https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple`)
     setquestions(data.results)
   }
+
   return (
     <BrowserRouter>
       <div className="app">
