@@ -1,14 +1,19 @@
-.main{
+.quiz-main{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid black;
 }
-.main h4{
+.quiz-main h4{
     margin-top: 30px;
+    /* align-self: flex-end; */
 }
 .quiz{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
