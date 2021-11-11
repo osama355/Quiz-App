@@ -16,7 +16,7 @@ function Quiz({ questions, setquestions, score, setscore, name }) {
           ...questions[curquest]?.incorrect_answers,
         ])
     );
-  }, [questions]);
+  }, [questions,curquest]);
 
   const handleShuffle = (option) => {
     return option.sort(() => Math.random() - 0.5);
