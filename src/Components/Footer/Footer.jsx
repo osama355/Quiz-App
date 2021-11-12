@@ -1,9 +1,15 @@
 import React from 'react'
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import './footer.css'
 
 function Footer() {
     return (
-        <div>
-            <p>Created By Muhammad </p>
+        <div className="footerMain">
+            <p>&copy; Created By Muhammad 2021</p>
+            <p className="phone">
+                <LocalPhoneIcon className="phoneIcon"/>
+                03041397724
+            </p>
         </div>
     )
 }

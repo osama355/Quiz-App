@@ -1,0 +1,25 @@
+.footerMain{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    background:#3F3D56;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.phoneIcon{
+    margin-right: 5px;
+}
+

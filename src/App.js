@@ -32,7 +32,7 @@ function App() {
           <Quiz questions={questions} setquestions={setquestions} score={score} setscore={setscore} name={name} />
         </Route>
         <Route path="/result" exact>
-          <Result/>
+          <Result name={name} score={score} />
         </Route>
       </Switch>
       <Footer/>

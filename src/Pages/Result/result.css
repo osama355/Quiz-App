@@ -1,0 +1,62 @@
+.mainResult {
+  width: 500px;
+  height: 400px;
+  background-color: #ffffff;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 4px 20px 1px lightgray;
+  font-family: sans-serif;
+  border-radius: 4px;
+}
+.homeButton {
+  border-radius: 4px;
+  background-color: #3f3d56;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top: 10px;
+}
+.homeButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+.homeButton span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+.homeButton:hover span {
+  padding-right: 25px;
+  transition: 1s;
+}
+.homeButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.resultData {
+  margin-top: 20px;
+  color: white;
+  border-radius: 5px;
+  background-color: #3f3d56;
+  padding: 10px 15px;
+  box-shadow: 5px 4px 10px 1px lightgray;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
