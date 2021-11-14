@@ -5,7 +5,7 @@ import './footer.css'
 function Footer() {
     return (
         <div className="footerMain">
-            <p>&copy; Created By Muhammad 2021</p>
+            <p>&copy; Created By Muhammad Osama 2021</p>
             <p className="phone">
                 <LocalPhoneIcon className="phoneIcon"/>
                 03041397724

@@ -31,8 +31,8 @@ function Quiz({ questions, setquestions, score, setscore, name }) {
     <div className="quiz-main">
       <div className="quiz">
         {questions ? (
-          <div>
-            <div>
+          <div className="quizIn">
+            <div className="userData">
               <h4>Welcome {name}</h4>
               <p>{questions[curquest].category}</p>
               <p>Score : {score}</p>

@@ -35,7 +35,7 @@ function App() {
           <Result name={name} score={score} />
         </Route>
       </Switch>
-      <Footer/>
+      {/* <Footer/> */}
     </BrowserRouter>
   );
 }

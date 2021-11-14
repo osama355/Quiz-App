@@ -1,34 +1,35 @@
 .question{
+    margin-top: 30px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: #FFFFFF;
+    padding: 10px 0 10px 0;
+    box-shadow: 3px 2px 16px -2px lightgray;
+    border-radius: 4px;
 }
 
 .singleQuestion{
-    width: 95%;
-    min-height: 350px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    border: 5px solid gray;
+    text-align: center;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .options{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     flex:1;
     align-items: center;
     justify-content: space-around;
     margin: 10px;
 }
-.singleoption{
+.singleOption{
     width: 46%;
-    height: 50px;
-    padding: 15px 20px;
+    padding: 15px 10px;
     margin: 10px;
     box-shadow: 0 0 2px black;
 }
@@ -42,4 +43,14 @@
     background-color: rgb(233, 0, 0);
     color: white;
     box-shadow: 0 0 1px black;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.actionBut{
+    background-color: #3F3D56 !important;
 }

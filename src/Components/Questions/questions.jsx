@@ -68,18 +68,18 @@ function Questions({
         <Button
           variant="contained"
           size="large"
-          color="secondary"
           style={{ width: 185 }}
           href="/"
+          className="actionBut"
         >
           Quit
         </Button>
         <Button
           variant="contained"
           size="large"
-          color="primary"
           style={{ width: 185 }}
           onClick={handleNext}
+          className="actionBut"
         >
           Next
         </Button>
